@@ -179,7 +179,7 @@ namespace PizzaOrderForm
                                 $"Card Number: {cardNumber}\n" +
                                 $"Expiry Date: {expiryDate.ToLongDateString()}\n" +
                                 "--------------------------------------------------------------------------------------------" + 
-                                $"TOTAL: ${totalPrice}", "Order Details");
+                                $"TOTAL: ${totalPrice}", "Order Details!");
             }
         }
     }
